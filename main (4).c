@@ -9,17 +9,10 @@ Welcome to GDB Online.
 #include <stdio.h>
 void main()
 {
-    int x;
-    printf("enter the number");
-    scanf("%d",&x);
-    if(x%2==0)
+    int x=1;
+    while(x<11)
     {
-        printf("even");
-        
+        printf("xyz/n");
+        x++;
     }
-  else
-  {
-      printf("odd");
-  }
-    
 }
