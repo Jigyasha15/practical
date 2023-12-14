@@ -7,12 +7,14 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
 #include <stdio.h>
-
-void main()
+int main()
 {
- float  radius,area;
-  printf("enter the radius of the circle");
-  scanf("%f",&radius);
-  area=3.14*radius*radius;
-  printf("the area of a circle %f",area);
+    int i;
+    for(i=1; i<=100; i++)
+    {
+        if(i%2==0)
+    {
+        printf("%d\n",i);
+    }
+  }
 }
