@@ -7,15 +7,10 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
 #include <stdio.h>
-
 void main()
 {
-int i,fact=1,number;
-printf("enter a number");
-scanf("%d",&number);
-for(i=1;i<=number;i++)
+    for(int x=0;x<10;x++)
 {
-fact=fact*i;
-}
-printf("factorial of %d is:%d",number,fact);
+    printf("%d\n",x);
+ }
 }
